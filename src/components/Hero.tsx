@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div className='flex-1 px-8'>
             <Image
-            src={"/bg-light-blue.png"}
+            src={"/pngImages/bg-light-blue.png"}
             alt='image'
             width={424}
             height={549}

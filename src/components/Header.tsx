@@ -17,7 +17,7 @@ const Header = () => {
       <div className=' flex items-center h-[56px] sm:h-[66px] md:h-[92px] px-4  md:px-8 lg:px-8 2xl:px-[110px] '>
           <div className='w-48 h-9'>
               <Image 
-              src={"/Logo.png"}
+              src={"/pngImages/Logo.png"}
               alt="logo"
               width={134}
               height={24}
