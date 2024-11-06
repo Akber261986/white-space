@@ -13,21 +13,20 @@ const WorkTogether = () => {
             alt="line"
             width={254}
             height={40}
-            className="ml-20 mt-[-20px]"
+            className="-mt-16 xl:ml-60"
             />
             <p className='text-center md:text-start text-[18px] font-normal '>With whitepace, share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and share the URL with others.</p>
             <Button 
             label='Try it now'
             />
         </div>
-        <div className='flex-1 px-8 bg'>
+        <div className='flex-1 px-8'>
             <Image
             src={"/pngImages/Work Together Image.png"}
             alt='image'
-            width={279}
-            height={259}
-            className='sm:w-[455px] md:w-[528px] lg:w-[583px] xl:w-[600px] 
-            sm:h-[422px] md:h-[491px] lg:h-[542px] xl:h-[600px]'
+            width={580}
+            height={1}
+            className='w-[28rem]'
             />
         </div>
         </div>

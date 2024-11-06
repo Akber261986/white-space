@@ -13,7 +13,7 @@ const Customise = () => {
                 alt="line"
                 width={254}
                 height={40}
-                className="ml-20 mt-[-20px]"
+                className="ml-20 -mt-16"
                 />
                 <p className='text-center md:text-start text-[18px] font-normal '>Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.</p>
                 <Button 
@@ -26,7 +26,7 @@ const Customise = () => {
                 alt='image'
                 width={748}
                 height={548}
-                className='sm:h-[367px] md:h-[350px] lg:h-[456px] xl:h-[548px]'
+                className='max-h-[548px]'
                 />
             </div>
         </div>

@@ -2,6 +2,7 @@ import Customise from "@/components/Customise";
 import Extension from "@/components/Extension";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import Plan from "@/components/Plan";
 import ProjectManagement from "@/components/ProjectManagement";
 import WorkTogether from "@/components/WorkTogether";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <WorkTogether />
       <Extension />
       <Customise />
+      <Plan />
     </div>
   );
 }

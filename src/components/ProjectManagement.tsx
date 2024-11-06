@@ -13,7 +13,7 @@ const ProjectManagement = () => {
             alt="line"
             width={254}
             height={40}
-            className="ml-20 mt-[-20px]"
+            className="-mt-16 xl:ml-60"
             />
             <p className='text-center md:text-start text-[18px] font-normal '>Images, videos, PDFs and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.</p>
             <Button 
