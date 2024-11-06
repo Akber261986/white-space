@@ -23,7 +23,7 @@ const Plan = () => {
                 height={40}
                 className="self-end md:mx-24 lg:mx-48 mt-[-20px] -z-10"
                 />
-                <p className='text-center text-[18px] font-normal '>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+                <p className='text-center text-[18px] font-normal '>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for You.</p>
             </div>
             <div className='max-w-[25rem] h-[44rem] py-2 md:hidden'>
                 <Swiper
