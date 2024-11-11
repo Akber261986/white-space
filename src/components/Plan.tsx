@@ -14,26 +14,20 @@ const Plan = () => {
   return (
         <div className='flex flex-col items-center'>
             <div className='flex flex-col pb-12 px-4'>
-                <h1 className='text-4xl sm:text-6xl font-bold text-center z-10'>Choose Your Plan
+                <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-center z-10'>Choose Your Plan
                 </h1>
                 <Image
                 src={"/svg/yellow-line.svg"}
                 alt="line"
                 width={254}
                 height={40}
-                className="self-end md:mx-24 lg:mx-48 mt-[-20px] -z-10"
+                className="self-end md:mx-60  mt-[-20px] -z-10"
                 />
                 <p className='text-center text-[18px] font-normal '>Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for You.</p>
             </div>
-            <div className='max-w-[25rem] h-[44rem] py-2 md:hidden'>
+            <div className='max-w-[20rem] h-[40rem] py-2 md:hidden '>
                 <Swiper
-                pagination={
-                    { 
-                    clickable: true,
-                    
-                 }
-
-                }
+                pagination={{ clickable: true}}
                 modules={[Pagination, Autoplay]}
                 spaceBetween={10}
                 slidesPerView={1}
@@ -45,7 +39,7 @@ const Plan = () => {
                 >
                 {posts.map((post, index) => (
                     <SwiperSlide key={index}>
-                        <div className="flex flex-col justify-between max-w-[25rem] h-[40rem] bg-[#043873] rounded-lg p-5 border border-[#FFE492] text-white">
+                        <div className="flex flex-col justify-between max-w-[20rem] h-[35rem] bg-[#043873] rounded-lg p-5 border border-[#FFE492] text-white">
                             <div className='flex flex-col justify-between h-[150px] text-[#FEFEFE]'>
                                 <h1 className='text-2xl font-semibold'>{[post.title]}</h1>
                                 <h1 className='text-[#FFE492] text-4xl font-bold'>${post.price}</h1>
@@ -113,10 +107,10 @@ const Plan = () => {
                 ))} 
                 </Swiper>
             </div>
-            <div className='hidden md:flex gap-8 max-w-[92.5rem] h-[47.5rem]'>
+            <div className='hidden md:flex items-center gap-4 h-[40.5rem]'>
             {posts.map((post, index) => (
                 <div key={index}>
-                    <div className="group flex flex-col justify-between max-w-[29.5rem] h-[40rem] hover:bg-[#043873] rounded-lg p-5 border border-[#FFE492]">
+                    <div className="group flex flex-col justify-between max-w-[20rem] h-[35rem] hover:bg-[#043873] rounded-lg p-5 border border-[#FFE492] hover:scale-110 duration-500">
                         <div className='flex flex-col justify-between h-[150px] group-hover:text-[#FEFEFE] '>
                             <h1 className='text-2xl font-semibold'>{[post.title]}</h1>
                             <h1 className='group-hover:text-[#FFE492] text-4xl font-bold'>${post.price}</h1>

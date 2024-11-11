@@ -1,5 +1,8 @@
+import Clients from "@/components/Clients";
+import CombinedSection from "@/components/CombinedSection";
 import Customise from "@/components/Customise";
 import Extension from "@/components/Extension";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Plan from "@/components/Plan";
@@ -16,6 +19,9 @@ export default function Home() {
       <Extension />
       <Customise />
       <Plan />
+      <CombinedSection />
+      <Clients />
+      <Footer />
     </div>
   );
 }

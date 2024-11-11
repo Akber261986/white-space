@@ -12,7 +12,7 @@ const Button = ({label}:Prop) => {
                 <Image 
                 src={"/svg/right-arrow.svg"}
                 alt="icon"
-                width={10}
+                width={15}
                 height={10}
                 />
             </div>

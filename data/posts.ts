@@ -54,3 +54,107 @@ export interface Post {
       bullet6:"Add due dates, reminders, and notifications to your tasks",
     },
   ] 
+
+  export interface Client {
+    name: string;
+    post: string;
+    workAs: string;
+    addres: string;
+    image: string;
+    comment: string;
+    quoteImageWhite:string;
+    quoteImageBlue:string;
+  }
+
+  export const clientPost:Client [] = [
+    {
+      name: "Oberon Shaw",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-1.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Will Simth",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-2.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Thomson Bot",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-3.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Oberon Shaw",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-1.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Will Simth",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-2.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Thomson Bot",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-3.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Oberon Shaw",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-1.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Will Simth",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-2.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+    {
+      name: "Thomson Bot",
+      post: "CMW",
+      workAs: "Head of Talent Acquisition",
+      addres: "North America",
+      image: "/client-images/client-3.png",
+      comment: "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
+      quoteImageWhite: "/pngImages/Quote-white.png",
+      quoteImageBlue: "/pngImages/Quote-blue.png",
+    },
+  ]

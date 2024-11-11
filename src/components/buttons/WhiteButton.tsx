@@ -5,7 +5,7 @@ interface Prop {
 
 const WhiteButton = ({label}:Prop) => {
   return (
-    <div className="flex justify-center gap-4 w-[227px] h-[60px] border-[2px] group-hover:border-none border-[#FFE492] group-hover:bg-[#4F9CF9] rounded-lg">
+    <div className="flex justify-center gap-4 py-4 px-0 border-[2px] group-hover:border-none border-[#FFE492] group-hover:bg-[#4F9CF9] rounded-lg">
                 <button className="group-hover:text-[#FFFFFF] text-[18px] font-medium">
                 {label}
                 </button>

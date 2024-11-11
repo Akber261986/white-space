@@ -33,7 +33,7 @@ body {
 }
 
 .swiper-pagination {
-  margin-top: 20px; /* Adjust as needed to give space below the slider */
+  margin-top: 20px; 
   text-align: center;
 }
 .swiper-pagination-bullet {
